@@ -1,15 +1,18 @@
 package fr.mxsz.exo_MavenSpringContext.Vehicules;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Vehicule {
 	
 	private String couleur;
-	private float poid;
+	private Float poid;
 	
 	public Vehicule() {
 		
 	}
 	
-	public Vehicule (String couleur, float poid) {
+	public Vehicule (String couleur, Float poid) {
 		this.couleur = couleur;
 		this.poid = poid;
 	}
@@ -22,11 +25,11 @@ public class Vehicule {
 		this.couleur = couleur;
 	}
 
-	public float getPoid() {
+	public Float getPoid() {
 		return poid;
 	}
 
-	public void setPoid(float poid) {
+	public void setPoid(Float poid) {
 		this.poid = poid;
 	}
 

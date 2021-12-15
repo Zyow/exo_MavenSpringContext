@@ -16,7 +16,7 @@ public class App {
 
 		Voiture voiture = context.getBean(Voiture.class);
 		voiture.setCouleur("Rouge");
-		voiture.setPoid(3);
+		voiture.setPoid(3f);
 		System.out.println(voiture);
 		
 		Voiture voiture2 = context.getBean(Voiture.class);
